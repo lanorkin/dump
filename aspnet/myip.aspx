@@ -9,6 +9,7 @@
       <pre>
 REMOTE_ADDR:          <%= Request.ServerVariables["REMOTE_ADDR"] %>
 HTTP_X_FORWARDED_FOR: <%= Request.ServerVariables["HTTP_X_FORWARDED_FOR"] %>
+HTTP_True-Client-IP:  <%= Request.ServerVariables["HTTP_True-Client-IP"] %>
       </pre>
     </form>
 </body>
